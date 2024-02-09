@@ -1,0 +1,73 @@
+/* Dog-Inspired CSS Theme */
+
+body {
+  background-color: #ffffff; /* Light grey background, reminiscent of a cozy atmosphere */
+  font-family: 'Arial', sans-serif; /* Simple and readable font */
+  color: #333; /* Dark grey text for contrast */
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  width: 600px;
+  margin-left: 655px;
+}
+
+header {
+  background-color: #8d461d; /* Brown, reminiscent of a chocolate lab */
+  color: #FFFFFF; /* White text for contrast */
+  padding: 20px;
+  text-align: center;
+}
+
+footer {
+  background-color: #8d461d;
+  color: #FFFFFF;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.main-content {
+  padding: 20px;
+}
+
+.paw-print {
+  width: 100px;
+  height: 100px;
+  background-image: url('paw.webp'); /* Assuming you have a paw-print image */
+  animation: spin 4s infinite linear;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* Example buttons and links */
+a, button {
+  background-color: #DAA520; /* Golden, reminiscent of a golden retriever */
+  color: #FFFFFF;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+a:hover, button:hover {
+  background-color: #F4A460; /* Sandy brown, for a hover effect */
+}
+
+/* Utility Classes */
+.text-center {
+  text-align: center;
+}
+
+.margin-top-20 {
+  margin-top: 20px;
+}
+
